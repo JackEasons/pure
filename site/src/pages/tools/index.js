@@ -39,7 +39,7 @@ function Tools() {
                 You can also install Pure with <a href="https://getcomposer.org/">Composer</a>.
                 </p>
 
-                <CodeBlock>$ composer require pure-css/purecss</CodeBlock>
+                <CodeBlock>$ composer require pure-css/pure</CodeBlock>
 
                 <SectionHeader heading="Extending Pure with Grunt" />
 
@@ -94,7 +94,10 @@ function Tools() {
                                     sm: 'screen and (min-width: 35.5em)', // 568px
                                     md: 'screen and (min-width: 48em)',   // 768px
                                     lg: 'screen and (min-width: 64em)',   // 1024px
-                                    xl: 'screen and (min-width: 80em)'    // 1280px
+                                    xl: 'screen and (min-width: 80em)',   // 1280px
+                                    xxl: 'screen and (min-width: 120em)',  // 1920px
+                                    xxxl: 'screen and (min-width: 160em)',  // 2560px                                    
+                                    x4k: 'screen and (min-width: 240em)'  // 3840px                                    
                                 }
                             }
                         }
@@ -128,7 +131,10 @@ function Tools() {
                             sm: 'screen and (min-width: 35.5em)', // 568px
                             md: 'screen and (min-width: 48em)',   // 768px
                             lg: 'screen and (min-width: 64em)',   // 1024px
-                            xl: 'screen and (min-width: 80em)'    // 1280px
+                            xl: 'screen and (min-width: 80em)',   // 1280px
+                            xxl: 'screen and (min-width: 120em)',  // 1920px
+                            xxxl: 'screen and (min-width: 160em)'  // 2560px
+                            x4k: 'screen and (min-width: 240em)'  // 3840px
                         }
                     })).toString();
 
